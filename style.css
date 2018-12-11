@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Avengers";
+    src: url("polices/AVENGEANCEHEROICAVENGERBD.otf") format("opentype"),
+    url("polices/AVENGEANCEHEROICAVENGERBD.ttf") format("ttf");
+}
+
+.siteTitle {
+    display: inline-block;
+    padding-right: 100px;
+}
+
+.title {
+    text-align: center;
+    font-family: Avengers, sans-serif;
+    font-size: 5em;
+    position: relative;
+    color: black;
+    z-index: 0;
+    margin-top: 100px;
+}
+
+/*.title2 {*/
+    /*text-align: left;*/
+    /*font-family: Avengers, sans-serif;*/
+    /*font-size: 2em;*/
+    /*position: relative;*/
+    /*color: white;*/
+    /*z-index: 0;*/
+/*}*/
+
+/*.title3 {*/
+    /*text-align: left;*/
+    /*font-family: Avengers, sans-serif;*/
+    /*font-size: 1em;*/
+    /*position: relative;*/
+    /*color: white;*/
+    /*z-index: 0;*/
+/*}*/
+
+/*.information {*/
+    /*text-align: center;*/
+    /*font-family: Avengers, sans-serif;*/
+    /*color: white;*/
+/*}*/
+
+body {
+    background-image: url("http://developpeurs.e-monsite.com/medias/album/fond-gris-degrade.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.button {
+    border: black;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.list {
+    margin-top: 100px;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+.menu {
+    text-align: left;
+    background-color: darkred;
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.menu ul, body {
+    margin: 0;
+}
+
+.block {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.text {
+    color: black;
+}
+
+.actors {
+    display: inline-block;
+    text-align: center;
+}
+
+.directors {
+    display: inline-block;
+    text-align: center;
+}
+
+img {
+    height: 350px;
+    width: 250px;
+}
+
+a {
+    color: black;
+}
+
+.director {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
